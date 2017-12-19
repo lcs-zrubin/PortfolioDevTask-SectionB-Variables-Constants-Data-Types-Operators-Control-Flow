@@ -21,7 +21,14 @@
  
  */
 // Answer question 3 below
+let hairDonationAmount = 55.75
+let runTrainingDonationAmount = 15.35
+var headShavedCount = 12
+var runTrainingCount = 73
 
+var totalDonationAmount = (55.75 * 12) + (15.35 * 73)
+
+print("I used doubles for the first 2 because the values werent whole numbers, and I used integers for the second two because half a kid can not participate, so there will only be whole numbers in those two. The total donation ended up being a double due to how the multiplication worked out")
 /*:
  ## Now share your understanding
  
