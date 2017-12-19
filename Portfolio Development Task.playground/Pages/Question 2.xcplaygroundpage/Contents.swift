@@ -21,7 +21,12 @@
  
  */
 // Answer question 2 below
+let dateOfMeasurement = "January 24th, 2017"
+let timeOfMeasurement = "10:34"
+var currentHeightOfSnow = 65
+var totalSnowfall = 327
 
+print("I used constants for the first 2 because its impossible for the date of the recording to change (I had to use strings to store the date and time because storing them in one variable each was tricky) and i used variables for the second two because the currentHeightOfSnow will be rerecorded every hour, and the totalSnowfall will be added onto every hour")
 /*:
  ## Now share your understanding
  
