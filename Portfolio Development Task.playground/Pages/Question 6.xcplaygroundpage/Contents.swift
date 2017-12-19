@@ -19,6 +19,19 @@
  
  */
 // Answer question 6 below
+var targetDistance:Double = 5000
+var currentDistanceRun:Double = 40
+
+
+if currentDistanceRun < (targetDistance/100)*15 {
+    print("Great start, keep it up!")
+// } else if currentDistanceRun = (targetDistance/100)* ??? {
+} else if currentDistanceRun == targetDistance/2 {
+        print("Halfway there!")
+    // } else if currentDistanceRun = (targetDistance/100)* ??? {
+} else if currentDistanceRun == targetDistance {
+    print("GREAT JOB! Youre finished the run")
+}
 
 
 /*:
