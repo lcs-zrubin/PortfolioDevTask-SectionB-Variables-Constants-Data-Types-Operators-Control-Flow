@@ -15,7 +15,7 @@ let hasBoysAndGirlsAttending = false
 let hasGreenAndWhiteBuildings = true
 
 // Answer question 5 below
-if hasWaterfrontOnLake, hasBoysAndGirlsAttending, hasGreenAndWhiteBuildings == true {
+if hasWaterfrontOnLake && hasBoysAndGirlsAttending && hasGreenAndWhiteBuildings == true {
     print("Must Be Lakefield")
 } else {
     print("Hmm, need more data to be sure")
